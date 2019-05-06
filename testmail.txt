@@ -1,0 +1,7 @@
+To: andrew.watkins@plantandfood.co.nz
+From: andrew.watkins@plantandfood.co.nz
+Subject: Mail with SSMTP
+
+Hello, this is a test mail.
+from the email-test docker file. 
+

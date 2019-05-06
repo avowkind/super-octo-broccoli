@@ -1,0 +1,1 @@
+ssmtp andrew.watkins@plantandfood.co.nz < testmail.txt
