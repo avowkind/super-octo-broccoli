@@ -9,15 +9,17 @@ To setup the external MTA needs to be listening to the docker0 network.
 clues :https://www.michelebologna.net/2019/send-an-email-from-a-docker-container/
 
 ## Build it
-git clone https://github.com/avowkind/super-octo-broccoli.git emailer
-cd emailer
-docker build -t emailer . 
+
+    git clone https://github.com/avowkind/super-octo-broccoli.git emailer
+    cd emailer
+    docker build -t emailer . 
 
 ## Run 
-But run it so it shares the host network
     
-    docker run -it --network host emailer
+    docker run -it emailer
 
+## sending an email
+`ssmtp andrew.watkins@plantandfood.co.nz < testmail.txt`
 
 ## Relying on the host MTA
 
